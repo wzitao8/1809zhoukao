@@ -9,6 +9,7 @@ class WxController extends Controller
     public function valid(){
         echo $_GET['echostr'];
     }
+    
 
     public function wxEvent(){
         //接收微信服务推送
